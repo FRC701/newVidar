@@ -13,8 +13,14 @@ package frc.robot;
  */
 
 public final class Constants {
+    public static final boolean kOpposeMasterDirection = true;
+    public static final boolean kDontOpposeMasterDirection = false;
+    
     public static class OperatorConstants {
         public static final int kDriverControllerPort = 0;
-        
+    }
+    public static class ElevatorConstants {
+        public static final int kLeftElevator = 20;
+        public static final int kRightElevator = 21;
     }
 }

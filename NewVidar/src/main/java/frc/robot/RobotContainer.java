@@ -11,6 +11,8 @@ import frc.robot.subsystems.ExampleSubsystem;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
+import frc.robot.subsystems.Elevator;
+import frc.robot.commands.ActivateElevator;
 
 /**
  * This class is where the bulk of the robot should be declared. Since Command-based is a
@@ -19,6 +21,7 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
  * subsystems, commands, and trigger mappings) should be declared here.
  */
 public class RobotContainer {
+  private Elevator mElevator = new Elevator();
   // The robot's subsystems and commands are defined here...
   private final ExampleSubsystem m_exampleSubsystem = new ExampleSubsystem();
 
